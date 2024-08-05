@@ -1,8 +1,8 @@
 
 function Footer() {
   return (
-    <footer>
-      <p>&copy; {new Date().getFullYear()} Just super simple shit</p>
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} All rights are not reserved. Dare to steal!</p>
     </footer>
   );
 }
